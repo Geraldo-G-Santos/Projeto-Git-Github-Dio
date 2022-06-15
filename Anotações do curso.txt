@@ -1,0 +1,27 @@
+GIT
+
+Criação da chave ssh gerada no Github para o Git.
+Comando: ssh-keygen-t ed25519 -C geraldo.gsantos@yahoo.com.br
+
+	ssh - add id_ed25519
+	criar senha
+
+Após gerar a chave, deve-se abrir o github e entrar em link na foto, Setting.
+Identificar SSH e click para inserir a chave gerada no Git
+
+
+
+/////////////////////////////
+
+Git init: esse comando instância o git, em outras palavras inicia o mesmo.
+
+Git add . : esse comando serve para quando vai realizar o commit, antes é preciso verificar o status dos arquivos.
+com isso os arquivos que foram modificados serão agrupados para realizar o commit
+
+Git commit: E o processamento do arquivo modificado ou criado, para que sejá gravado na memoria do computador. Após o commit
+se faz necessario, realizar o Pull Origin Main. Assim após o git push será enviado para o GitHub
+
+Blobs Guarda o SHA1 dos Objetos
+TREES - armazena os Blobs ( arvores ) que podem apontar para outros Trees.
+Commits - Copila os BLOBS e as TREES ( Junta tudo )
+
